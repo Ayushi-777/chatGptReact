@@ -1,0 +1,252 @@
+/* ChatBot.css */
+
+body::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+.Chatbot{
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  background-color: #0e1117 !important;
+  /* font-size: calc(10px + 2vmin); */
+  height:100vh;
+  /* padding-left: 250px; */
+}
+
+.logo{
+  max-width: 170px; 
+  /* height: 1000px;    */
+  margin-left: 305px;
+  margin-top: 60px;
+  /* border: 1px solid rgb(0, 255, 115);   */
+  border-radius: 8px; 
+  padding: 14px;
+  /* overflow: hidden; */
+}
+.chatbot-main{
+  /* justify-items: center; */
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.chatbot-container {
+  /* background-color: #0e1117 !important; */
+    
+    /* max-height: 100px; */
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    max-height: 300px; /* For fixed height */
+      /* min-width: 100%; */
+      /* overflow-y: scroll;  */
+      overflow-x: hidden;
+  /* overflow: auto; */
+    /* Enable vertical scrolling if content overflows */
+  }
+  /* chatbot.css */
+
+/* Header Styles */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:#ffffff;
+    color: #0b1941;
+  }
+  
+  .welcome {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .username {
+    text-align: center;
+  }
+  
+  
+  
+  /* ChatBot Container Styles */
+
+  
+  
+  /* .chatbot-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  } */
+  /* chatbot.css */
+
+/* Header Styles */
+
+  
+.chatbot-messages ,.p{
+    padding: 10px;
+    max-height: 100%; /* Ensure the messages container takes full height within the chatbot container */
+    /* overflow-y: auto;  */
+    /* Enable scrolling for messages */
+  }
+  
+  .message {
+    margin: 15px;
+    /* padding: 10px; */
+    border-radius: 5px;
+  }
+  
+  .user {
+    background-color: #1f2224;
+    color: #faf7f7;
+    margin-right: -25px;
+    margin-left: -25px;
+    padding: 15px;
+  }
+  .user-message {
+    color: blue; /* Define the color for user messages */
+  }
+  .query{
+    background-color: rgb(21, 67, 102);
+    width: 100%;
+    border-radius: 4px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* display: flex;
+    text-align: center;
+    justify-content: center; */
+    font-size:15px;
+    padding: 15px;
+    margin-bottom: 4px;
+    margin-right: -15px;;
+    margin-left: -17px;
+    /* margin-top: -10px; */
+  }
+  
+  .bot {
+    /* background-color: #0b1941; */
+    color: #fff;
+    margin-right: -25px;;
+    margin-left: -25px;
+    padding: 15px;
+  }
+  
+  
+
+  .child-logo{
+    border: 1px solid red;
+    border-radius: 5px;
+  
+    height: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: #ff6c6c;
+  margin-right: 10px;
+  }
+
+  .robot-logo{
+    border: 1px solid red;
+    border-radius: 5px;
+  
+    /* height: 4vmin; */
+    height: 4px;
+    padding: 3px 3px 3px 3px;
+    background-color: rgb(114, 114, 7);
+  margin-right: 10px;
+  }
+  
+  
+ 
+  
+  
+  /* chatbot.css */
+.chatbox {
+    border: 2px solid #ccc; /* Add a border */
+    background-color: #f9f9f9; /* Set a background color */
+    padding: 20px; /* Add padding for spacing inside the box */
+    max-height: 400px; /* Limit the box height and add a scrollbar if needed */
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds box height */
+  }
+  
+  
+  /* Add a class for bot messages to handle line breaks */
+  .bot-message {
+    white-space: pre-line; 
+    color: green; 
+    padding: 100px;
+    /* Preserve line breaks within messages */
+    /* Add any other desired styling for bot messages */
+  }
+    
+  .chatbot-input {
+    position: relative;
+    /* height: 100px;
+    width : 300px; */
+  }
+  
+  /* Style for the input text field */
+  .chatbot-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 93%;
+    height: 25px;
+    padding-right: 25px;
+    background-color:  #323131;
+    color: white;
+    margin-bottom: 4px;
+    /* margin-right: -17px; */
+    /* margin-left: -17px; */
+    
+    
+  }
+  
+  /* Style for the send button */
+  .chatbot-input button {
+    padding: 1px 10px;
+    background-color: #323131; /* Light blue background for the send button */
+     border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    font-size: x-large;
+    right: 30px;
+    top : 3px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+  }
+  
+  .icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(234, 215, 6);
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+  }
+  
+  .input {
+    height: 50px;
+  }
+  
+ 
+
+
+
+  .flexContainer {
+    display: flex;
+}
+
+.inputField {
+    flex: 1;
+}
